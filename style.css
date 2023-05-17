@@ -1,0 +1,499 @@
+@import url(//db.onlinewebfonts.com/c/af57f718c747b23daac7c596a49b0539?family=Incised901+NdIt+BT);
+
+@font-face {
+    font-family: "Incised901 NdIt BT";
+    src: url("//db.onlinewebfonts.com/t/af57f718c747b23daac7c596a49b0539.eot");
+    src: url("//db.onlinewebfonts.com/t/af57f718c747b23daac7c596a49b0539.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/af57f718c747b23daac7c596a49b0539.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/af57f718c747b23daac7c596a49b0539.woff") format("woff"), url("//db.onlinewebfonts.com/t/af57f718c747b23daac7c596a49b0539.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/af57f718c747b23daac7c596a49b0539.svg#Incised901 NdIt BT") format("svg");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: #000;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+}
+
+.logo {
+    width: 140px;
+    height: auto;
+}
+
+.navegacao {
+    width: 60%;
+}
+
+.lista {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.item {
+    color: #fff;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 0.5s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.item:hover {
+    color: #b21616;
+}
+
+#banner {
+    background-image: url(./banner-3.jpg);
+    background-position: 10% 0%;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+
+#trailler-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 60%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trailler {
+    width: 50%;
+}
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description {
+    color: #fff;
+    font-size: 19px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 80%;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: #b21616;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: -8s;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.banner-1 {
+    background-image: url('https://conteudo.imguol.com.br/c/entretenimento/fc/2019/06/07/vin-diesel-em-cena-de-velozes--furiosos-5---operacao-rio-1559931652633_v2_1279x1920.png');
+}
+
+.banner-2 {
+    background-image: url('https://conteudo.imguol.com.br/c/entretenimento/42/2020/01/05/o-ator-jason-momoa-1578275235083_v2_3x4.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://i.pinimg.com/originals/8f/40/f0/8f40f09420462aa88a1d51d6be642f92.jpg');
+}
+
+.banner-4 {
+    background-image: url('https://i.pinimg.com/originals/b6/31/9a/b6319a9d719144c6a4bd84793e39d3c4.jpg');
+}
+
+.banner-5 {
+    background-image: url('https://br.web.img2.acsta.net/pictures/22/05/24/17/50/4549434.jpg');
+}
+
+.banner-6 {
+    background-image: url('https://cinepop.com.br/wp-content/uploads/2020/02/john-cena-1580330827.jpg');
+}
+
+.container-photos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.photos-elenco {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.cartao {
+    width: 600px;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+}
+
+.cartao:hover {
+    transform: scale(1.05);
+}
+
+.elenco-1 {
+    background-image: url('https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2023/03/15/250607309-24954792ccec90c1f7b67228dd0c9760.jpg');
+}
+
+.elenco-2 {
+    background-image: url('https://midias.agazeta.com.br/2023/02/11/cena-do-filme-velozes-e-furiosos-10-que-estreia-nos-cinemas-em-maio-980158.jpg');
+}
+
+.elenco-3 {
+    background-image: url('https://diariodorio.com/wp-content/uploads/2022/10/1.jpeg');
+}
+
+.elenco-4 {
+    background-image: url('https://media.filmelier.com/tit/VF8S5A/poster/velozes-e-furiosos-10_9v74cP0.jpeg');
+}
+
+.elenco-5 {
+    background-image: url('https://i0.wp.com/velozesclub.com.br/wp-content/uploads/2023/05/57.jpg?resize=1000%2C600&ssl=1');
+}
+
+.elenco-6 {
+    background-image: url('https://ovicio.com.br/wp-content/uploads/2023/05/20230512-ovicio-velozes-furiosos-dante.jpg');
+}
+
+.elenco-7 {
+    background-image: url('https://i0.wp.com/velozesclub.com.br/wp-content/uploads/2022/10/56.jpg');
+}
+
+.elenco-8 {
+    background-image: url('https://versus.com.br/wp-content/uploads/2023/04/lud.webp');
+}
+
+.elenco-9 {
+    background-image: url('https://1.bp.blogspot.com/-nLEO9eIAA20/YR1zIjE9U-I/AAAAAAAAeeA/0kYCZFOd-dsFqlRp32wc9fAMZIMdUWHNACLcBGAsYHQ/s1600/velozes10.jpg');
+}
+
+.elenco-10 {
+    background-image: url('https://trecobox.com.br/wp-content/uploads/2023/03/Velozes-Furiosos-10-cena-pos-credito-do-filme-inclui-aparicao-surpresa-de-estrela-do-cinema-segundo-site.jpeg');
+}
+
+.elenco-11 {
+    background-image: url('https://cdn.ome.lt/fsYx-50c0h7o1ykKDRyA9K40nAY=/1200x630/smart/extras/conteudos/fast_x_2.png');
+}
+
+.elenco-12 {
+    background-image: url('https://tm.ibxk.com.br/2023/02/10/10133557005176.jpg');
+}
+
+#container-comentarios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 40px;
+    row-gap: 40px;
+    width: 100%;
+    height: 460px;
+    background-color: #000;
+    max-width: 1200px;
+    margin: 100px auto;
+    grid-gap: 40px;
+}
+
+.filho {
+    background-color: #721f1f;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: #bdbcbc 13px 6px 13px 0px;
+}
+
+.filho img {
+    width: 170px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.filho h3 {
+    background-color: #721f1f;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.filho p {
+    background-color: #721f1f;
+    font-size: 22px;
+    padding: 16px;
+    align-items: center;
+}
+
+.container-formulario {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #721f1f;
+    margin: 80px;
+    box-shadow: #bdbcbc 13px 6px 13px 0px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #721f1f;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #721f1f;
+}
+
+textarea {
+    width: 300px;
+    height: 100%;
+    margin: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #721f1f;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button {
+    width: 150px;
+    height: 100px;
+    background-color: #fffafa;
+    color:#721f1f;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fffafa;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.footer-navegation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width: 768px) {
+
+    .footer-navegation {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    nav {
+        display: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    li {
+        color: #fff;
+        cursor: pointer;
+    }
+
+    li:hover {
+        color: #b21616;
+        transition: 1s;
+    }
+
+    #banner {
+        background-position: 45%;
+    }
+
+    #trailer-container {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailler {
+        width: 100%;
+    }
+
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+        width: 480px;
+    }
+
+    .photos-elenco {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+        width: 480px;
+    }
+
+    .cabecalho {
+        width: 100%;
+        height: 95px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #000;
+    }
+
+    .container-photos {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: -30%;
+    }
+
+    #container-comentarios {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img-footer {
+        margin-top: 670%;
+    }
+}
